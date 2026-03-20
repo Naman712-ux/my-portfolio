@@ -1,0 +1,275 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #cccccc url(back.jpg) no-repeat center fixed;
+    background-size: cover;
+    height: 100vh;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    top: 0;
+}
+
+.ul {
+    display: flex;
+    list-style: none;
+    justify-content: right;
+    gap: 25px;
+}
+
+li {
+    padding: 20px;
+    color: #cccccc;
+}
+
+.li2{
+    padding: 20px;
+    color: #cccccc;
+    background-color: red;
+}
+li:hover {
+    color: red;
+    text-decoration: underline;
+    font-size: 18px;
+}
+
+#logo {
+    color: #38bdf8;
+    padding: 14px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 30px;
+    background-color: rgba(15, 23, 42, 0.85);
+}
+
+.hero {
+    height: 86vh;
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 2rem;
+}
+
+.postion {
+    margin: 35px;
+    margin-top: 104px;
+    width: 394px;
+    padding: 10px;
+}
+
+.right {
+    width: 940px;
+    height: 452px;
+    text-align: center;
+}
+
+#image {
+    width: 465px;
+}
+
+.nav .ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav .ul li a:hover {
+    text-decoration: underline;
+    color: lavender;
+}
+
+#element {
+    color: rgb(4, 4, 128);
+    display:flex;
+}
+
+.home hr {
+    height: 0px;
+    width: 209vh;
+}
+
+#home {
+    height: 72vh;
+    background-color: #0f172a;
+}
+
+#about{
+    height: 72vh;
+    background-color: #0f172a;
+}
+#project{
+    height: 72vh;
+    background-color: #0f172a;
+}
+#Exp {
+    color:#38bdf8;
+    padding: 4px;
+    margin: 20px;
+}
+
+#span {
+    display: flex;
+    font-size: 11px;
+    color: #94a3b8;
+}
+
+#box {
+    width: 180vh;
+    background-color: white;
+    height: 3px;
+    display: flex;
+}
+
+.inside-foot {
+    margin: 9vh;
+}
+
+.vertical {
+    height: 39px;
+    background-color: white;
+    width: 1px;
+}
+
+.inside-foot .vertical {
+    margin: 0 100px;
+}
+
+.image-top {
+    width: 23px;
+    position: relative;
+    left: -9px;
+    top: -22px;
+}
+
+.vertical-title {
+    position: relative;
+    top: 24px;
+    width: 150px;
+    color: white;
+}
+
+.vertical-dic{
+    margin-top: 4px;
+    color: #94a3b8;
+    top: 50px;
+    position: relative;
+    font-size: 11px;
+}
+#skill{
+    height: 79vh;
+    background-color: #0f172a;
+}
+
+.cont{
+    background-color: lavender;
+    height: 4px;
+    width: 118vh;
+    margin-left: 50px;
+    margin-top:-42px;
+    display: flex;
+}
+
+/* .another-foot hr{
+    background-color: lavender;
+    height: 0px;
+    width: 209vh;
+    display: flex;
+} */
+
+#skill h1{
+    color:#38bdf8;
+    padding: 44px;
+    /* margin: 20px;  This can be bring back if i want just comment out remove other margin after this also comment out hr in html on line 89*/ 
+    margin-left: 28px;
+    margin-bottom: 15px;
+}
+
+#spy{
+    color: #94a3b8;
+    display: flex;
+}
+
+.vertical2{
+    background-color: white;
+    height: 39px;
+    width: 1px;
+    display: flex;
+    /* margin: 113px; */
+    margin: 0 100px;
+}
+
+.image-top2{
+    width: 30px;
+    height: 20px;
+    margin-top: -16px;
+    /* margin: unset; */
+    margin-left: -7px;
+}
+
+.vertical2-title{
+    position: relative;
+    color: white;
+    top: 46px;
+    left: -36px;
+}
+
+.vertical2-dic{
+    width: 156px;
+    margin-top: 42px;
+    color: #94a3b8;
+    font-size: 11px;
+}
+
+#contact{
+    background-color: #0f172a;
+    color: #e5e7eb;
+    border-top: 40px;
+    height: 101vh;
+    border-radius:52px 70px 0px 0px;
+}
+
+#contact h1{
+    color: #3b82f6;
+    text-align: center;
+    margin-top: -54px;
+    text-decoration: underline;
+}
+
+
+.content{
+    margin: 43px;
+    font-size: 19px;
+}
+
+.content p{
+    margin-left: 68px;
+}
+
+#con-h2{
+    color: #3b82f6;
+}
+
+#button{
+    height: 50px;
+    margin: 6px;
+    border-radius:15px;
+    padding: 15px;
+    background-color: transparent;
+    color: #3b82f6;
+}
+
+nav ul li a.active {
+  background: red;   /* same as your current highlight */
+  color: white;
+  padding: 7px;
+  border-radius: 4px;
+}
